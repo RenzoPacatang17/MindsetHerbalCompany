@@ -439,7 +439,7 @@
     .counter {
     position: absolute;
     top: 12px;
-    right: 12px;
+    right: 35px;
     width: 22px;
     height: 22px;
     background-color: red;
@@ -502,7 +502,7 @@
      }
 
      .contact-form {
-        width: 380px;  
+        width: 100%:
      }
 
      .form-details {
@@ -512,6 +512,7 @@
     
      .form-details, label, input, textarea {
         margin: 10px 0;
+        font-size: 15px;
      }
      
      .submit {
