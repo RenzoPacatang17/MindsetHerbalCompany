@@ -393,7 +393,7 @@
        height: auto;
     }
     .header h1 {
-        font-size: 16px;    
+        font-size: 14px;    
     }
 
     .menu i {
@@ -502,7 +502,7 @@
      }
 
      .contact-form {
-        max-width: 300px;
+        max-width: 350px;
      }
 
      .form-details {
@@ -512,7 +512,7 @@
     
      .form-details, label, input, textarea {
         margin: 10px 0;
-        font-size: 15px;
+        font-size: 12px;
      }
      
      .submit {
