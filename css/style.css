@@ -393,7 +393,7 @@
        height: auto;
     }
     .header h1 {
-        font-size: 14px;    
+        font-size: 12px;    
     }
 
     .menu i {
@@ -502,7 +502,7 @@
      }
 
      .contact-form {
-        max-width: 350px;
+        max-width: 262px;
      }
 
      .form-details {
