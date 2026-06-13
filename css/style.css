@@ -393,7 +393,8 @@
        height: auto;
     }
     .header h1 {
-        font-size: 18px;    
+        font-size: 14px;
+        flex: 1;    
     }
 
     .menu i {
@@ -455,10 +456,8 @@
 /* GALLERY SECTION */
 
      .gallery-container {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
+        grid-template-columns: 1fr;
+        padding: 110px 15px 20px;
      }
 
       .content {
@@ -466,13 +465,11 @@
         text-align: center;     }
 
      .gallery {
-        width: 100%;
-       display: grid;
-       grid-template-columns: 1fr;   
+        width: 100%; 
      }
      .gallery img {
-       width: 400px;
-       height: 400px;
+       width: 100%;
+       height: auto;
      }
     
      .adddBtn {
@@ -484,6 +481,10 @@
      }
 
      /* CONTACT SECTION */
+
+     .contact-container {
+        padding: 20px;
+     }
 
      .contact-content {
        margin: 10px 0; 
@@ -501,7 +502,7 @@
      }
 
      .contact-form {
-        width: 390px;   
+        width: 100%;   
      }
 
      .form-details {
@@ -514,21 +515,19 @@
      }
      
      .submit {
-        width: 40%;
+        width: 100%;
      }
 
      .location-details {
-        width: 100%;
-        margin: 0;
-        padding: 0; 
+       margin: 20px 0 0;
      }
 
      .info-item {
-       font-size: 20px; 
+       font-size: 10px; 
      }
      
      .info-text {
-        font-size: 25px;
+        font-size: 18px;
      }
 
      .footer {
@@ -536,9 +535,7 @@
      }
 
      .footer p, a {
-        font-size: 36px;
+        font-size: 16px;
      }
     
 }
-
-
