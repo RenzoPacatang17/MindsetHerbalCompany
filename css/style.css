@@ -491,6 +491,10 @@
      }
 
      .contact-content h2 {
+        font-size: 15px;
+     }
+
+     .contact-content h2 {
         text-align: center;
         font-size: 35px;
      }
