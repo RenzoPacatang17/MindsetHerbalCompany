@@ -393,7 +393,7 @@
        height: auto;
     }
     .header h1 {
-        font-size: 17px;    
+        font-size: 19px;    
     }
 
     .menu i {
@@ -439,7 +439,7 @@
     .counter {
     position: absolute;
     top: 12px;
-    right: 16px;
+    right: 12px;
     width: 22px;
     height: 22px;
     background-color: red;
@@ -502,7 +502,7 @@
      }
 
      .contact-form {
-        width: 100%;  
+        width: 380px;  
      }
 
      .form-details {
