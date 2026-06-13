@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --header: #1B5E20;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: var(--header);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.header img {
+    height: 50px;
+    width: 50px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 25px;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header ul li {
+    list-style: none;
+    
+}
+.header ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: 0.5s ease;
+}
+
+.header ul li a:hover{
+    background-color: #C8E6C9;
+    color: black;
+}
+
+.menu {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+}
+
+.menu i {
+    display: none;
+}
+
+.menu i {
+    color: white;
+    font-size: 35px;
+}
+
+.cart {
+    position: relative;
+    order: 1;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 0 20px;
+    padding: 0;
+}
+
+.counter {
+    position: absolute;
+    top: 8px;
+    right: 50px;
+    width: 22px;
+    height: 22px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cart i {
+    color: white;
+    font-size: 35px;
+}
+
+.counter {
+    order: 2;
+}
+
+.counter p {
+    position: absolute;
+    left: -100px;
+  color: white;
+}
+
+/* GALLERY SECTION */
+
+.gallery-container {
+    width: 100%;
+    padding: 120px 30px 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-items: center;
+    
+}
+
+.content {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 50px;
+    color: #1B5E20;
+}
+
+.gallery {
+    width: 100%;
+    max-width: 320px;
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.btn-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.addBtn,
+.removeBtn,
+.resetBtn {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.addBtn {
+    background-color: #1B5E20;
+    color: white;
+}
+
+.addBtn:hover {
+    background-color: #2E7D32;
+}
+
+.removeBtn {
+    background-color: #D32F2F;
+    color: white;
+}
+
+.removeBtn:hover {
+    background-color: #B71C1C;
+}
+
+.resetBtn {
+    background-color: #F57C00;
+    color: white;
+}
+
+.resetBtn:hover {
+    background-color: #E65100;
+}
+
+/* CONTACT SECTION */
+
+.contact-container {
+    background-color: var(--header);
+    padding: 50px;
+}
+
+
+.contact-content {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-content h2 {
+    color: white;
+    font-size: 50px;
+}
+
+.contact-wrapper {
+    display: flex;
+    margin: 10px;
+}
+
+.contact-form {
+    width: 50%;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.form-details {
+    display: flex;;
+    flex-direction: column;
+}
+
+.form-details label {
+    font-size: 25px;
+    color: white;
+    margin: 10px 0;
+}
+
+.form-details input, textarea {
+    font-size: 25px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+}
+
+.submit {
+    background-color: #C8E6C9;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.submit:hover {
+    background-color: #FFF8E1;
+
+}
+
+.location-details {
+    margin: 120px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    margin: 30px 0;
+    gap: 15px;
+}
+ 
+.info-text {
+    font-size: 30px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer p, a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+#form-message {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+
+    .header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .menu {
+        margin-left: auto;
+    }
+
+    .menu i {
+        display: block;
+    }
+
+    #menuList {
+        display: none;
+        background-color: var(--header);
+        text-align: center;   
+        width: 100%;
+        order: 1;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #menuList.show {
+        display: flex;
+    }
+
+    #menuList li {
+        margin-top: 20px;
+        list-style: none;
+     }
+
+     /* GALLERY SECTION */
+
+   .gallery-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .content h2 {
+        font-size: 40px;
+    }
+    
+    .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .location-details {
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+         gap: 10px;
+    }
+    .header img {
+       width: 50px;
+       height: auto;
+    }
+    .header h1 {
+        font-size: 18px;    
+    }
+
+    .menu i {
+        display: block;
+        color: white;
+        font-size: 20px;
+    }
+
+    .cart i {
+        font-size: 25px;
+    }
+
+     #menuList {
+        display: none;
+        background-color: var(--header);
+        text-align: center;   
+        width: 100%;
+        order: 1;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #menuList.show {
+        display: flex;
+    }
+    
+     #menuList li {
+        margin-top: 20px;
+        list-style: none;
+     }
+
+    .cart {
+    position: relative;
+    order: 1;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 0 20px;
+    padding: 0;
+    }
+
+    .counter {
+    position: absolute;
+    top: 15px;
+    right: 45px;
+    width: 22px;
+    height: 22px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    }
+
+/* GALLERY SECTION */
+
+     .gallery-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+     }
+
+      .content {
+        width: 100%;
+        text-align: center;     }
+
+     .gallery {
+       display: grid;
+       grid-template-columns: 1fr;   
+     }
+     .gallery img {
+       width: 450px;
+       height: 400px;
+     }
+    
+
+     .adddBtn {
+        width: 100%;
+     }
+
+     .removeBtn {
+        width: 100%;
+     }
+
+     /* CONTACT SECTION */
+
+     .contact-content {
+       margin: 10px 0; 
+     }
+
+     .contact-content h2 {
+        text-align: center;
+        font-size: 35px;
+     }
+
+     .contact-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+     }
+
+     .contact-form {
+        width: 430px;   
+     }
+
+     .form-details {
+        margin: 0;
+        padding: 0;
+     }
+    
+     .form-details, label, input, textarea {
+        margin: 10px 0;
+     }
+     
+     .submit {
+        width: 40%;
+     }
+
+     .location-details {
+        width: 100%;
+        margin: 0;
+        padding: 0; 
+     }
+
+     .info-item {
+       font-size: 20px; 
+     }
+     
+     .info-text {
+        font-size: 25px;
+     }
+
+     .footer {
+        text-align: center;
+     }
+
+     .footer p, a {
+        font-size: 36px;
+     }
+    
+}
+
+
