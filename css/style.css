@@ -472,7 +472,7 @@
        grid-template-columns: 1fr;   
      }
      .gallery img {
-       width: 370px;
+       width: 300px;
        height: auto;
      }
     
