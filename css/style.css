@@ -462,7 +462,8 @@
 
       .content {
         width: 100%;
-        text-align: center;     }
+        text-align: center;     
+      }
 
      .gallery {
         width: 100%;
@@ -474,7 +475,6 @@
        height: 400px;
      }
     
-
      .adddBtn {
         width: 100%;
      }
