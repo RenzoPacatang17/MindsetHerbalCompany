@@ -502,7 +502,7 @@
      }
 
      .contact-form {
-        width: 100%:
+        max-width: 300px;
      }
 
      .form-details {
