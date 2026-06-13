@@ -389,11 +389,11 @@
          gap: 10px;
     }
     .header img {
-       width: 50px;
+       width: 30px;
        height: auto;
     }
     .header h1 {
-        font-size: 14px;    
+        font-size: 10px;    
     }
 
     .menu i {
@@ -525,11 +525,11 @@
      }
 
      .info-item {
-       font-size: 18px; 
+       font-size: 14px; 
      }
      
      .info-text {
-        font-size: 16px;
+        font-size: 14px;
      }
 
      .footer {
