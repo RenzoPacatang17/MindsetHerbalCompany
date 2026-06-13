@@ -393,17 +393,17 @@
        height: auto;
     }
     .header h1 {
-        font-size: 18px;    
+        font-size: 14px;    
     }
 
     .menu i {
         display: block;
         color: white;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .cart i {
-        font-size: 25px;
+        font-size: 16px;
     }
 
      #menuList {
@@ -439,7 +439,7 @@
     .counter {
     position: absolute;
     top: 15px;
-    right: 45px;
+    right: 50px;
     width: 22px;
     height: 22px;
     background-color: red;
